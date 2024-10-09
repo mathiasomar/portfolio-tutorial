@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Parallax type="portfolio" />
       <Portfolio />
+      <Contact />
     </div>
   );
 }
