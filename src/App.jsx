@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
+import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Parallax type="services" />
       <Services />
       <Parallax type="portfolio" />
+      <Portfolio />
     </div>
   );
 }

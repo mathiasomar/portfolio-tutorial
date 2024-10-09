@@ -1,6 +1,6 @@
-const Section = ({ className, id, children }) => {
+const Section = ({ className, id, children, ref }) => {
   return (
-    <section className={`h-screen scroll-custom ${className || ""}`} id={id}>
+    <section ref={ref} className={`h-screen scroll-custom ${className || ""}`} id={id}>
       {children}
     </section>
   )
